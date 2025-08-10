@@ -141,7 +141,7 @@ const TextType = ({
           );
         } else if (textArray.length > 1) {
           timeout = setTimeout(() => {
-            setIsDeleting(true);
+            //setIsDeleting(true);
           }, pauseDuration);
         }
       }

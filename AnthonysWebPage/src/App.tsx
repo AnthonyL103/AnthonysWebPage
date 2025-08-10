@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import DecryptedText from "./utils/decryptedtext"
 import TextType from './utils/texttype';
+import ShinyText from './utils/shinytext';
+
 
 interface Project {
   title: string;
@@ -265,7 +267,7 @@ function App() {
                 text="Hi my name is Anthony Li"
                 speed={100}
                 animateOn="view"
-                animateOnce={false}  // Set to false to animate every time
+                animateOnce={true}  // Set to false to animate every time
                 className='text-5xl md:text-7xl font-bold text-white mb-6'
                 encryptedClassName="text-transparent"
                 revealDirection="center"
@@ -277,11 +279,11 @@ function App() {
                 text="I am a Software Engineer & Full-Stack Developer interested in Artificial Intelligence"
                 speed={50}
                 animateOn="view"
-                animateOnce={false}  
+                animateOnce={true}  
                 className='text-xl md:text-2xl text-purple-300 mb-8'
                 encryptedClassName="text-transparent"
                 revealDirection="center"
-                sequential={true}    
+                sequential={true}
                 />
             </div>
          
@@ -323,23 +325,41 @@ function App() {
               <p className="text-gray-300 text-xl mb-2">B.S. in Computer Science | GPA: 3.73</p>
               <p className="text-gray-400 text-xl mb-4">Expected Graduation: June 2026</p>
               <div className="space-y-2">
-                <p className="text-2xl text-purple-200">🏆 Dean's List (4x)</p>
-                <p className="text-2xl text-purple-200">🏆 OSU Winter 2024 Hackathon Winner</p>
-                <p className="text-2xl text-purple-200">🏆 OSU Winter 2025 Hackathon Winner (Google track)</p>
-              </div>
+                <ShinyText 
+                    text="🏆 Dean's List (4x)" 
+                    disabled={false} 
+                    speed={3} 
+                    className='text-2xl text-purple-200' 
+                />
+                <ShinyText 
+                    text="🏆 OSU Winter 2024 Hackathon Winner" 
+                    disabled={false} 
+                    speed={3} 
+                    className='text-2xl text-purple-200' 
+                />
+                <ShinyText 
+                    text="🏆 OSU Winter 2025 Hackathon Winner (Google track)" 
+                    disabled={false} 
+                    speed={3} 
+                    className='text-2xl text-purple-200' 
+                />
+                </div>
             </div>
-            <div className="text-gray-300 text-4xl space-y-4">
+            <div className="text-gray-300 text-xl space-y-4">
             <TextType 
                 text={[
-                `I'm a passionate software engineer with a strong foundation in full-stack development, cloud architecture, and AI/ML technologies. Currently pursuing my B.S. in Computer Science at Oregon State University while gaining hands-on experience at Samsung SDS.`,
-                `My journey in tech started early, and I've since built everything from fraud detection systems that prevent 500,000+ hacking attempts annually to award-winning wildfire tracking applications. I love solving complex problems and creating scalable solutions that make a real impact.`,
-                `When I'm not coding, you'll find me playing guitar, going to music concerts, and working on my latest side project.`
-                ]}
+ `I'm a passionate software engineer with a strong foundation in full-stack development, cloud architecture, and AI/ML technologies. Currently pursuing my B.S. in Computer Science at Oregon State University while gaining hands-on experience at Samsung SDS.
+
+My journey in tech started early, and I've since built everything from fraud detection systems that prevent 500,000+ hacking attempts annually to award-winning wildfire tracking applications. I love solving complex problems and creating scalable solutions that make a real impact.
+
+When I'm not coding, you'll find me playing guitar, going to music concerts, and working on my latest side project.`
+]}
                 typingSpeed={20}
                 pauseDuration={3000}
                 deletingSpeed={20}
                 showCursor={true}
                 cursorCharacter="|"
+                startOnVisible={true}
             />
             </div>
           </div>
