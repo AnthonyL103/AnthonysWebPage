@@ -35,8 +35,20 @@ function App() {
         "Implemented Google Gemini to generate dynamic, location-specific safety recommendations",
         "Leveraged Firebase Cloud Functions and multi-API data integration"
       ],
-      technologies: ["Google Gemini", "NASA FIRMS API", "Firebase", "React", "Real-time Data"],
+      technologies: [
+        "Google Gemini AI",
+        "NASA FIRMS API",
+        "Firebase (Firestore, Functions, Hosting)",
+        "React",
+        "TypeScript",
+        "Leaflet.js",
+        "TailwindCSS",
+        "OpenCage Geocoding API",
+        "OpenWeather API",
+        "U.S. Census API"
+        ],
       award: "🏆 1st Place - Google Technology Challenge",
+      github: "https://github.com/AnthonyL103/Catalytica",
       link: "https://www.catalytica.org/"
     },
     {
@@ -46,7 +58,19 @@ function App() {
         "Built a web app for guitar players in 48 hours, collaborated with a team of 4 using GitHub for version control",
         "Features include instrument tuning, song and genre identification from audio, and chord tablature generation.",
       ],
-      technologies: ["Google Gemini", "NASA FIRMS API", "Firebase", "React", "Real-time Data"],
+      technologies: [
+        "OpenAI API",
+        "Hugging Face API",
+        "Node.js",
+        "Express.js",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Web Audio API",
+        "AUBIO.js",
+        "SVG"
+        ],
+      github: "https://github.com/AnthonyL103/OSUHackathonWinter2024",
       award: "🏆 1st Place - BeaverHacks"
     },
     {
@@ -57,7 +81,24 @@ function App() {
         "Designed scalable infrastructure with auto-scaling groups and load balancers using Terraform",
         "Optimized SQL queries and indexing strategies to reduce page load time"
       ],
-      technologies: ["React", "AWS", "MySQL", "Terraform", "Load Balancing"],
+      technologies: [
+        "React",
+        "React Context API",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Vite",
+        "Node.js",
+        "Express",
+        "MySQL",
+        "AWS S3",
+        "JWT (JSON Web Tokens)",
+        "Axios",
+        "ESLint",
+        "PostCSS",
+        "PM2",
+        "Nginx"
+        ],
       github: "https://github.com/AnthonyL103/BenchRacers",
       link: "https://www.benchracershq.com"
     },
@@ -69,7 +110,25 @@ function App() {
         "Leveraged AWS and PostgreSQL to securely store uploads and generated study materials",
         "Implemented Terraform to automate infrastructure deployment"
       ],
-      technologies: ["React", "AWS", "PostgreSQL", "GPT API", "Terraform"],
+      technologies: [
+        "React",
+        "React Context API",
+        "React Router",
+        "Vite",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Mammoth.js",
+        "jsPDF",
+        "Node.js",
+        "Express",
+        "Sequelize",
+        "PostgreSQL",
+        "OpenAI API",
+        "Google Cloud Vision",
+        "Winston",
+        "PM2",
+        "CORS"
+        ],
       github: "https://github.com/AnthonyL103/Zukini",
       link: "https://www.zukini.com"
     }
