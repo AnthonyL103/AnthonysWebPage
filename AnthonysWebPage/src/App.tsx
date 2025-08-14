@@ -349,9 +349,9 @@ function App() {
             <div className="text-gray-300 text-xl space-y-4">
             <TextType 
                 text={[
- `I'm a passionate software engineer with a strong foundation in full-stack development, cloud architecture, and AI/ML technologies. Currently pursuing my B.S. in Computer Science at Oregon State University while gaining hands-on experience at Samsung SDS.
+ `I'm currently a senior at Oregon State University studying Computer Science, with a strong foundation in full-stack development, cloud architecture, and AI/ML technologies. Currently pursuing my B.S. in Computer Science at Oregon State University while gaining hands-on experience at Samsung SDS.
 
-My journey in tech started early, and I've since built everything from fraud detection systems that prevent 500,000+ hacking attempts annually to award-winning wildfire tracking applications. I love solving complex problems and creating scalable solutions that make a real impact.
+My journey in tech started early, and I've since built Ai Agents with RCA and summarization capabilties of over 100,000 logs/metrics/traces to award-winning wildfire tracking applications. I love solving complex problems and creating scalable solutions that make a real impact.
 
 When I'm not coding, you'll find me playing guitar, going to music concerts, and working on my latest side project.`
 ]}
