@@ -265,23 +265,24 @@ function App() {
             <div>
             <DecryptedText
                 text="Hi my name is Anthony Li"
-                speed={100}
+                speed={150}
                 animateOn="view"
                 animateOnce={true}  // Set to false to animate every time
                 className='text-5xl md:text-7xl font-bold text-white mb-6'
-                encryptedClassName="text-transparent"
+                encryptedClassName="text-5xl md:text-7xl text-white font-bold"
                 revealDirection="center"
+                useOriginalCharsOnly={false}
                 sequential={true}    // Add this for letter-by-letter reveal
                 />
             </div>
             <div className="mb-8">
             <DecryptedText
-                text="I am a Software Engineer & Full-Stack Developer interested in Artificial Intelligence"
-                speed={50}
+                text="I am a Software Engineer & Full-Stack Developer interested in Artificial Intelligence and Cloud Engineering"
+                speed={40}
                 animateOn="view"
                 animateOnce={true}  
                 className='text-xl md:text-2xl text-purple-300 mb-8'
-                encryptedClassName="text-transparent"
+                encryptedClassName="text-xl md:text-2xl text-purple-300"
                 revealDirection="center"
                 sequential={true}
                 />
