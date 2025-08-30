@@ -290,7 +290,7 @@ function App() {
             className="bg-cover bg-center bg-gray-600"
           >
              <img 
-                src="/IMG_0115.JPG" 
+                src="/sdsphoto.jpeg" 
                 alt="Workspace" 
                 className="w-full h-full object-cover"
             />
@@ -301,7 +301,7 @@ function App() {
             
           >
              <img 
-                src="/IMG_7620.JPG" 
+                src="/IMG_0115.JPG" 
                 alt="Workspace" 
                 className="w-full h-full object-cover"
             />
@@ -311,7 +311,7 @@ function App() {
             className="bg-cover bg-center bg-gray-600"
           >
              <img 
-                src="/sdsphoto.jpeg" 
+                src="/IMG_3165.jpeg" 
                 alt="Workspace" 
                 className="w-full h-full object-cover"
             />
@@ -408,13 +408,13 @@ function App() {
             <div className="text-gray-300 text-xl space-y-4">
             <TextType 
                 text={[
- `I'm currently a senior at Oregon State University studying Computer Science, with a strong foundation in full-stack development, cloud computing, and AI/ML technologies. Currently pursuing my B.S. in Computer Science at Oregon State University while gaining hands-on experience at Samsung SDS.
+ `I'm currently a senior at Oregon State University studying Computer Science, with a passion for full-stack development, cloud computing, and AI/ML technologies.
 
 My journey in tech started early, and I've since built Ai Agents with RCA and summarization capabilties of over 100,000 logs/metrics/traces to award-winning wildfire tracking applications. I love solving complex problems and creating scalable software that make a real impact.
 
 In my free time, you'll find me playing guitar, going to music concerts, and working on my latest side project.`
 ]}
-                typingSpeed={7}
+                typingSpeed={10}
                 pauseDuration={3000}
                 deletingSpeed={20}
                 showCursor={true}
