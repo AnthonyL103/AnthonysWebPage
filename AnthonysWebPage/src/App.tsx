@@ -76,10 +76,11 @@ function App() {
     {
       title: "BenchRacers",
       description: [
-        "Built a car showcase platform where users share builds, vote, and view performance specs",
-        "Collaborated with marketing team to shape product vision for sponsorship opportunities",
-        "Designed scalable infrastructure with auto-scaling groups and load balancers using Terraform",
-        "Optimized SQL queries and indexing strategies to reduce page load time"
+        "Built a car showcase platform for sharing builds, voting, and performance specs with React, AWS, and MySQL.",
+        "Designed a production-ready infrastructure with Terraform, Auto Scale Groups, load balancers, and CloudWatch logging.",
+        "Reduced delivery time by optimizing queries, adding indexes, and tuning schema design for a media-heavy application.",
+        "Implemented security concepts such as  JWT auth, input validation, VPC isolation, and security groups.",
+        "Enhanced UI/UX design to match brand identity, improve usability, and attract new users through a polished interface.",
       ],
       technologies: [
         "React",
@@ -176,11 +177,11 @@ function App() {
 
   const skills = {
     "Programming": ["Java", "Python", "C/C++", "SQL", "JavaScript", "TypeScript", "HTML/CSS", "Ruby"],
-    "Frameworks": ["React", "Express", "Ruby on Rails", "Flask", "Tensorflow", "Tailwind CSS", "Fast Agent"],
+    "Frameworks": ["React", "Express", "Ruby on Rails", "Flask", "Tensorflow", "Tailwind CSS", "Fast Agent"," Next.js", "Vite"],
     "DevOps & Cloud": ["AWS", "Google Cloud", "Azure", "Docker", "Terraform", "CI/CD"],
     "Databases": ["PostgreSQL", "MySQL", "ClickHouse", "Firebase"],
-    "Tools": ["Git", "GitHub", "Linux", "Bash", "FAISS", "LlamaIndex"],
-    "Concepts": [ "Object-Oriented Programming (OOP)", "Data Structures & Algorithms", "Agile", "Rest APIs", "Scalability", "Security", "MCP", "Vector Search"]
+    "Tools": ["Git", "GitHub", "Linux", "Bash", "FAISS", "LlamaIndex", "Nginx", "PM2"],
+    "Concepts": [ "AI-Agents","RAG","Object-Oriented Programming (OOP)", "Data Structures & Algorithms", "Agile", "Rest APIs", "Scalability", "Security", "MCP", "Vector Search", "UI/UX Design"]
   };
 
   useEffect(() => {
