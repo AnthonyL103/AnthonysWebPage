@@ -140,7 +140,7 @@ function App() {
       company: "Samsung SDS",
       position: "Software Engineering Intern",
       location: "Seattle, WA",
-      period: "June 2024 – Present",
+      period: "June 2025 – August 2025",
       points: [
     "Developed an Ai Agent using MCP framework integrated as a Grafana plugin, analyzing over 100,000+ logs daily with automated root cause analysis and summarization capabilities",
     "Implemented semantic search infrastructure using LlamaIndex and BERT embeddings to enable RAG-powered query capabilities across distributed log databases",
