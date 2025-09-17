@@ -30,10 +30,11 @@ function App() {
     {
       title: "Catalytica",
       description: [
-        "Won first place in the Google Technology Challenge at BeaverHacks 2025 out of 71 teams",
-        "Built a real-time wildfire heat map and dashboard using NASA FIRMS data for intuitive fire tracking",
-        "Implemented Google Gemini to generate dynamic, location-specific safety recommendations",
-        "Leveraged Firebase Cloud Functions and multi-API data integration"
+        "Won 1st place in the Google Technology Challenge at BeaverHacks 2025 out of 71 teams.",
+        "Built a real-time wildfire dashboard with React + TypeScript using NASA FIRMS satellite data and Leaflet.js heat mapping.",
+        "Implemented radius-based proximity queries to surface reports within a 50-mile zone, accurately identifying impacted areas.",
+        "Integrated Google Gemini to generate location-specific safety tips based on fire severity, weather, and population data.",
+        "Developed Firebase Cloud Functions, API calls, schemas, and controllers to deliver live, multi-API data to the frontend in < 1 second",
       ],
       technologies: [
         "Google Gemini AI",
@@ -76,11 +77,12 @@ function App() {
     {
       title: "BenchRacers",
       description: [
-        "Built a car showcase platform for sharing builds, voting, and performance specs with React, AWS, and MySQL.",
-        "Designed a production-ready infrastructure with Terraform, Auto Scale Groups, load balancers, and CloudWatch logging.",
-        "Reduced delivery time by optimizing queries, adding indexes, and tuning schema design for a media-heavy application.",
-        "Implemented security concepts such as  JWT auth, input validation, VPC isolation, and security groups.",
-        "Enhanced UI/UX design to match brand identity, improve usability, and attract new users through a polished interface.",
+        "As the tech founder of a StartUp, I built a car showcase platform with React, AWS, and MySQL for sharing custom builds, voting, and performance specs.",
+        "Designed production-ready infrastructure with Terraform, Auto Scaling Groups, load balancers, and CloudWatch logging.",
+        "Optimized database queries and debugged bottlenecks to achieve < 1 second response times for a media-heavy application.",
+        "Implemented JWT authentication, input validation, VPC isolation, and security groups to prevent unauthorized access.",
+        "Developed an Instagram-style recommendation algorithm based on engagement metrics to surface the most relevant content.",
+        "Enhanced UI/UX with improved navigation and responsive layouts, optimizing flow and creating a polished user experience."
       ],
       technologies: [
         "React",
@@ -106,10 +108,11 @@ function App() {
     {
       title: "Zukini",
       description: [
-        "Designed an application to help students study more effectively with classroom material",
-        "Built intuitive interface using React to generate flashcards and mock tests from parsed text",
-        "Leveraged AWS and PostgreSQL to securely store uploads and generated study materials",
-        "Implemented Terraform to automate infrastructure deployment"
+        "Built a study-assist app with React to generate flashcards and mock tests from parsed class notes using Google Cloud Vision and OpenAI models.",
+        "Implemented and optimized prompt engineering to reduce hallucinations by 95%, ensuring high-quality and accurate flashcard generation.",
+        "Optimized the generation pipeline by chunking larger inputs to stay within token limits and maintain fast route response times.",
+        "Leveraged AWS, Sequelize, and PostgreSQL for secure storage of uploads, user data, and generated materials.",
+        "Integrated Stripe for secure payments and automated infrastructure deployment with Terraform for scalability and maintainability"
       ],
       technologies: [
         "React",
@@ -142,11 +145,13 @@ function App() {
       location: "Seattle, WA",
       period: "June 2025 – August 2025",
       points: [
-    "Developed an Ai Agent using MCP framework integrated as a Grafana plugin, analyzing over 100,000+ logs daily with automated root cause analysis and summarization capabilities",
-    "Implemented semantic search infrastructure using LlamaIndex and BERT embeddings to enable RAG-powered query capabilities across distributed log databases",
-    "Engineered high-performance embedding pipeline processing 20,000 embeddings per minute for real-time log analysis and similarity matching",
-    "Created dynamic response formatting system combining markdown parsing with HTML styling to deliver Claude/GPT-quality formatted outputs",
-    "Architected real-time data synchronization using WebSockets and web scraping to maintain live dashboard updates across multiple data sources and panel queries"
+    "Built a log parser AI-Agent with MCP framework in Grafana, analyzing 100K+ logs/day in real-time for live issue diagnosis.",
+"implemented and optimized RAG with LlamaIndex + BERT embeddings, and achieved tool response times under 10 seconds.",
+"Engineered and tested an embedding pipeline for RAG, generating 20K embeddings/min, and ensured 90% accurate semantic search results.",
+"Reduced hallucinations by 95% via prompt engineering and context optimization (95/100 test prompts validated).",
+"Added short-term memory (chat thread persistence) and external memory for multi-turn, session-aware recall",
+"Implemented real-time dashboard refreshes and tooling updates via WebSockets and scraping, achieving < 90 ms end-to-end latency.",
+"Created markdown-to-HTML response formatting for polished, Claude Code-like output that improved UI/UX"
     ]
     },
     {
@@ -155,10 +160,10 @@ function App() {
       location: "Seattle, WA",
       period: "June 2023 – August 2024",
       points: [
-        "Taught 70 high school students CS subjects including OOP, Robotics, and Machine Learning",
-        "Achieved a satisfaction rating of 4.7 stars from both students and parents",
-        "Broke down complex concepts such as neural networks and game design",
-        "Used real-world examples and interactive exercises to ensure student comprehension"
+        "Taught 70+ students AI, ML, Robotics (C++), and Data Structures & Algorithms, earning a 4.7 satisfaction rating.",
+        "Led ML projects, training models to 90%+ accuracy and guiding students in building LLM-powered chatbots.",
+        "Explained neural networks and prompt engineering in beginner-friendly terms, simplifying complex AI concepts.",
+        "Developed hands-on robotics labs in C++ covering algorithms, OOP, and mechanical engineering fundamentals" 
       ]
     },
     {
