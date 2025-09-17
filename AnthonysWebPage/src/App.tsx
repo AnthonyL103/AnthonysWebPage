@@ -12,6 +12,7 @@ interface Project {
   live?: string;
   award?: string;
   link?:string;
+  devpost?:string;
 }
 
 interface Experience {
@@ -50,7 +51,8 @@ function App() {
         ],
       award: "🏆 1st Place - Google Technology Challenge",
       github: "https://github.com/AnthonyL103/Catalytica",
-      link: "https://www.catalytica.org/"
+      link: "https://www.catalytica.org/",
+      devpost: "https://www.devpost.com/software/catalytica"
     },
     {
       title: "Guitar Hub:",
@@ -510,6 +512,14 @@ In my free time, you'll find me playing guitar, going to music concerts, and wor
                     )}
                   {project.live && (
                     <a href={project.live} target="_blank" rel="noopener noreferrer"
+                       className="text-gray-300 hover:text-purple-400 transition-colors">
+                      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </a>
+                  )}
+                  {project.devpost && (
+                    <a href={project.devpost} target="_blank" rel="noopener noreferrer"
                        className="text-gray-300 hover:text-purple-400 transition-colors">
                       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
