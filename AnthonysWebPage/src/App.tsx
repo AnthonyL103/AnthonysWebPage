@@ -170,7 +170,7 @@ function App() {
     },
     {
       company: "GUIDED FITNESS",
-      position: "Web Development/Marketing Intern",
+      position: "Web Development Intern",
       location: "Redmond, WA",
       period: "June 2019 – September 2021",
       points: [
