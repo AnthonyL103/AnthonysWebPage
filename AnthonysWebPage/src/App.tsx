@@ -266,7 +266,7 @@ function App() {
         </div>
 
         {isMenuOpen && (
-          <div className="md:hidden bg-black/30 backdrop-blur-lg">
+          <div className="md:hidden bg-black/50 backdrop-blur-lg">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               {['Home', 'About', 'Experience', 'Projects', 'Skills', 'Contact'].map((item) => (
                 <button
@@ -298,7 +298,7 @@ function App() {
             className="bg-cover bg-center bg-gray-600"
           >
              <img 
-                src="/sdsphoto.jpeg" 
+                src="/anthonyphotooutside.png" 
                 alt="Workspace" 
                 className="w-full h-full object-cover"
             />
@@ -319,7 +319,7 @@ function App() {
             className="bg-cover bg-center bg-gray-600"
           >
              <img 
-                src="/IMG_3165.jpeg" 
+                src="/anthonyphoto.png" 
                 alt="Workspace" 
                 className="w-full h-full object-cover"
             />
