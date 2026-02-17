@@ -28,25 +28,6 @@ function App() {
 
   const projects: Project[] = [
     {
-      title: "HetGenML - NDA Protected",
-      description: [
-        "Building a Docker-based data pipeline to merge, filter, and summarize 700,000+ samples from multi-source datasets.",
-        "Implementing grayscale normalization, noise-aware ROI cropping, and dataset standardization for consistent training.",
-        "Training a lightweight CNN for pupil/feature localization, optimizing RMSE toward 0 while keeping model complexity low.",
-        "Researching SimGAN-style synthetic refinement to generate realistic edge-case training data without exposing sensitive details."
-      ],
-      technologies: [
-        "Python",
-        "PyTorch",
-        "OpenCV",
-        "Docker",
-        "CNNs",
-        "Data Pipelines",
-        "Model Evaluation (RMSE)",
-        "Quantization-Aware Concepts (INT8/DPU)"
-      ]
-    },
-    {
       title: "Catalytica",
       description: [
         "Won 1st place in the Google Technology Challenge at BeaverHacks 2025 out of 71 teams.",
@@ -160,6 +141,30 @@ function App() {
       ],
       github: "https://github.com/AnthonyL103/Zukini",
       link: "https://www.zukini.com"
+    },
+    {
+      title: "GoMCP",
+      description: [
+        "Built a Go-based Model Context Protocol (MCP) framework for creating AI agents with dynamic tool loading and multi-provider LLM support.",
+        "Implemented seamless provider switching between Anthropic Claude and OpenAI, handling their different tool execution models (sequential vs. parallel).",
+        "Designed an extensible MCP server architecture with YAML-driven configuration for runtime tool discovery and registration.",
+        "Developed type-safe JSON Schema validation with recursive nested structures for complex tool inputs.",
+        "Built conversation history management with automatic tool call tracking and provider-specific message formatting.",
+        "Created a modular transport layer abstracting provider differences in tool schemas, message formats, and execution flows."
+      ],
+      technologies: [
+        "Go",
+        "Model Context Protocol (MCP)",
+        "Anthropic Claude API",
+        "OpenAI API",
+        "YAML",
+        "JSON Schema",
+        "HTTP/REST APIs",
+        "Concurrent Programming",
+        "Type Systems",
+        "Agent Architecture"
+      ],
+      github: "https://github.com/AnthonyL103/GOMCP"
     }
   ]
 
