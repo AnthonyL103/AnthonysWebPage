@@ -50,7 +50,6 @@ function App() {
       ],
       award: "🏆 1st Place - Google Technology Challenge",
       github: "https://github.com/AnthonyL103/Catalytica",
-      link: "https://www.catalytica.org/",
       devpost: "https://www.devpost.com/software/catalytica"
     },
     {
