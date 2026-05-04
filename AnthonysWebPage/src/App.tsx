@@ -28,6 +28,37 @@ function App() {
 
   const projects: Project[] = [
     {
+      title: "GlassBox Audit Platform",
+      description: [
+        "GlassBox exists because static analysis alone only tells you what looks risky; this project closes the loop with repo scanning, agentic triage, and real hardware validation.",
+        "Point it at a GitHub repo and it clones the code, scans repo files, builds a RAG index over code plus misc context, and streams a unified vulnerability report into the dashboard.",
+        "The agent lives outside the scanners and uses repo tools, search tools, and retrieval to answer questions with citations and keep both past and future audit context in one place.",
+        "For C/C++ timing leaks, it can drive the GlassBox pod, flash candidate functions onto an ESP32 through the Pico, and measure power and timing traces to confirm the leak on silicon.",
+        "Built on my GoMCP framework, which this project was the first real end-to-end integration test for against a live tool chain."
+      ],
+      technologies: [
+        "Python",
+        "Go",
+        "C++",
+        "React",
+        "TypeScript",
+        "FastAPI",
+        "WebSockets",
+        "Nemotron",
+        "GoMCP",
+        "FAISS",
+        "Gitleaks",
+        "OSV Scanner",
+        "ESP32",
+        "Raspberry Pi Pico",
+        "asyncio",
+        "Hardware-in-the-loop"
+      ],
+      award: "🏆 1st Place - Conductor One Best Agent Infrastructure",
+      github: "https://github.com/cbgabler/glassbox",
+      link: "https://judge.beaverhacks.org/cmlfqho300000kv04wi9199a5/projects/cmoq6uquw0131jv04le7w15h8"
+    },
+    {
       title: "Catalytica",
       description: [
         "Won 1st place in the Google Technology Challenge at BeaverHacks 2025 out of 71 teams.",
@@ -51,28 +82,6 @@ function App() {
       award: "🏆 1st Place - Google Technology Challenge",
       github: "https://github.com/AnthonyL103/Catalytica",
       devpost: "https://www.devpost.com/software/catalytica"
-    },
-    {
-      title: "Guitar Hub",
-      description: [
-        "Won first place at the Oregon State Spring Hackathon out of 50 student teams.",
-        "Built a web app for guitar players in 48 hours; collaborated with a team of 4 using GitHub for version control.",
-        "Implemented audio-driven features: tuning, song/genre recognition, and chord tablature generation."
-      ],
-      technologies: [
-        "OpenAI API",
-        "Hugging Face API",
-        "Node.js",
-        "Express.js",
-        "JavaScript",
-        "HTML5",
-        "CSS3",
-        "Web Audio API",
-        "AUBIO.js",
-        "SVG"
-      ],
-      github: "https://github.com/AnthonyL103/OSUHackathonWinter2024",
-      award: "🏆 1st Place - OSU Hackathon"
     },
     {
       title: "BenchRacers",
@@ -402,6 +411,12 @@ function App() {
               <p className="text-gray-400 text-xl mb-4">Expected Graduation: June 2026</p>
               <div className="space-y-2">
                 <ShinyText text="🏆 Dean's List (4x)" disabled={false} speed={3} className="text-2xl text-purple-200" />
+                <ShinyText
+                  text="🏆 BeaverHacks 2026 Conductor 1 Track - Best Agent Infrastructure"
+                  disabled={false}
+                  speed={3}
+                  className="text-2xl text-purple-200"
+                />
                 <ShinyText
                   text="🏆 OSU Winter 2024 Hackathon Winner"
                   disabled={false}
