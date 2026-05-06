@@ -117,7 +117,7 @@ function App() {
       link: "https://www.benchracershq.com"
     },
     {
-      title: "Zukini",
+      title: "Zukini - Decommissioned",
       description: [
         "Built a study-assist app to generate flashcards and mock tests from parsed class notes using OCR + LLMs.",
         "Reduced hallucinations by ~95% via prompt constraints and context/pipeline tuning for higher-quality outputs.",
@@ -148,7 +148,7 @@ function App() {
         "Terraform"
       ],
       github: "https://github.com/AnthonyL103/Zukini",
-      link: "https://www.zukini.com"
+      
     },
     {
       title: "GoMCP",
