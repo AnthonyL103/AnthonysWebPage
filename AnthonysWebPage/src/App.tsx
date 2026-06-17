@@ -654,7 +654,7 @@ In my free time, you'll find me playing guitar, DJing, golfing, going to concert
             </a>
           </div>
           <div className="mt-12 text-gray-400">
-            <p>📍 Corvallis, OR 97330</p>
+            <p>📍 Sammamish, WA 98074</p>
             <p>📧 anthonyli0330@gmail.com</p>
             <p>📱 425-623-2468</p>
           </div>
@@ -663,7 +663,7 @@ In my free time, you'll find me playing guitar, DJing, golfing, going to concert
 
       <footer className="py-8 px-4 border-t border-white/10">
         <div className="max-w-6xl mx-auto text-center text-gray-400">
-          <p>© 2025 Anthony Li. Built with React, TypeScript, and Tailwind CSS.</p>
+          <p>© 2026 Anthony Li. Built with React, TypeScript, and Tailwind CSS.</p>
         </div>
       </footer>
     </div>
