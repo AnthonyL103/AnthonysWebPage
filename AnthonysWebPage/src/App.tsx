@@ -84,7 +84,7 @@ function App() {
       devpost: "https://www.devpost.com/software/catalytica"
     },
     {
-      title: "BenchRacers",
+      title: "BenchRacers - ServicesDecommissioned(2026)",
       description: [
         "As the tech founder of a StartUp, I built a car showcase platform with React, AWS, and MySQL for sharing custom builds, voting, and performance specs.",
         "Designed production-ready infrastructure with Terraform, Auto Scaling Groups, load balancers, and CloudWatch logging.",
@@ -117,7 +117,7 @@ function App() {
       link: "https://www.benchracershq.com"
     },
     {
-      title: "Zukini - Decommissioned",
+      title: "Zukini - Services Decommissioned(2026)",
       description: [
         "Built a study-assist app to generate flashcards and mock tests from parsed class notes using OCR + LLMs.",
         "Reduced hallucinations by ~95% via prompt constraints and context/pipeline tuning for higher-quality outputs.",
@@ -148,6 +148,7 @@ function App() {
         "Terraform"
       ],
       github: "https://github.com/AnthonyL103/Zukini",
+      link: "https://www.zukini.com"
       
     },
     {
@@ -408,8 +409,13 @@ function App() {
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8">
               <h3 className="text-3xl font-semibold text-purple-300 mb-4">Oregon State University</h3>
               <p className="text-gray-300 text-xl mb-2">B.S. in Computer Science | GPA: 3.73</p>
-              <p className="text-gray-400 text-xl mb-4">Expected Graduation: June 2026</p>
               <div className="space-y-2">
+                <ShinyText
+                  text="🏆 Graduated Magna Cum Laude"
+                  disabled={false}
+                  speed={3}
+                  className="text-2xl text-purple-200"
+                />
                 <ShinyText text="🏆 Dean's List (4x)" disabled={false} speed={3} className="text-2xl text-purple-200" />
                 <ShinyText
                   text="🏆 BeaverHacks 2026 Conductor 1 Track - Best Agent Infrastructure"
@@ -434,11 +440,11 @@ function App() {
             <div className="text-gray-300 h-[22rem] text-xl space-y-4">
               <TextType
                 text={[
-                  `I'm currently a senior at Oregon State University studying Computer Science, with a passion for full-stack development, cloud computing, and AI/ML technologies.
+                  `I am an OSU alumnus with a B.S. in Computer Science and a passion for full-stack development, cloud computing, and AI/ML technologies.
 
-I've built AI agents for large-scale observability workflows and award-winning web applications. I enjoy turning messy real-world data into reliable systems and shipping scalable software that performs under constraints.
+I've built AI agents for large-scale observability workflows, award-winning web applications, and efficient, scalable infrastructure. I enjoy turning messy real-world data into reliable systems and shipping software that performs under constraints.
 
-In my free time, you'll find me playing guitar, going to concerts, and working on my latest side project.`
+In my free time, you'll find me playing guitar, DJing, golfing, going to concerts, and working on my latest side project.`
                 ]}
                 typingSpeed={10}
                 pauseDuration={3000}
