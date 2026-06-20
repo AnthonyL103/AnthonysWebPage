@@ -84,7 +84,7 @@ function App() {
       devpost: "https://www.devpost.com/software/catalytica"
     },
     {
-      title: "BenchRacers - ServicesDecommissioned(2026)",
+      title: "BenchRacers - Services Decommissioned(2026)",
       description: [
         "As the tech founder of a StartUp, I built a car showcase platform with React, AWS, and MySQL for sharing custom builds, voting, and performance specs.",
         "Designed production-ready infrastructure with Terraform, Auto Scaling Groups, load balancers, and CloudWatch logging.",
