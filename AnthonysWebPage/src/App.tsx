@@ -494,11 +494,11 @@ In my free time, you'll find me playing guitar, DJing, golfing, going to concert
       <section id="projects" className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold text-white mb-12 text-center">Projects</h2>
-          <div className="grid md:grid-rows-3 lg:grid-rows-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {projects.map((project, index) => (
               <div
                 key={index}
-                className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 hover:bg-white/15 transition-all duration-300 transform hover:scale-105"
+                className="overflow-hidden bg-white/10 backdrop-blur-lg rounded-2xl p-6 hover:bg-white/15 transition-all duration-300 transform hover:scale-105"
               >
                 {project.award && (
                   <div className="bg-gradient-to-r text-xl from-yellow-400 to-orange-500 text-black text-sm font-semibold px-3 py-1 rounded-full inline-block mb-4">
