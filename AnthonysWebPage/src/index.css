@@ -1,2 +1,67 @@
 @import "tailwindcss";
 
+:root {
+	color-scheme: dark;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	min-width: 320px;
+	background: #07111d;
+	color: #e2e8f0;
+}
+
+#root {
+	min-height: 100vh;
+}
+
+@keyframes fade-up {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes soft-glow {
+	0%,
+	100% {
+		opacity: 0.55;
+		transform: scale(1);
+	}
+
+	50% {
+		opacity: 0.85;
+		transform: scale(1.03);
+	}
+}
+
+.reveal-up {
+	opacity: 0;
+	animation: fade-up 0.9s ease-out forwards;
+}
+
+.ambient-glow {
+	animation: soft-glow 12s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+
+	.reveal-up,
+	.ambient-glow {
+		animation: none;
+		opacity: 1;
+	}
+}
+

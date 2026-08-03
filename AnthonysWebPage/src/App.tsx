@@ -179,6 +179,15 @@ function App() {
 
   const experiences: Experience[] = [
     {
+      company: "Oracle Cloud Infrastructure",
+      position: "Software Engineer",
+      location: "Seattle, WA",
+      period: "June 2026 – Present",
+      points: [
+        "Region Build Platform",
+      ]
+    },
+    {
       company: "Samsung SDS",
       position: "Software Engineering Intern",
       location: "Seattle, WA",
@@ -320,7 +329,7 @@ function App() {
           </div>
 
           <div className="bg-cover bg-center bg-gray-600">
-            <img src="/anthonyphotooutside.png" alt="Workspace" className="w-full h-full object-cover" />
+            <img src="/desertphoto.jpg" alt="Workspace" className="w-full h-full object-cover" />
           </div>
 
           <div className="bg-cover bg-center bg-gray-600">
@@ -328,7 +337,11 @@ function App() {
           </div>
 
           <div className="bg-cover bg-center bg-gray-600">
-            <img src="/anthonyphoto.png" alt="Workspace" className="w-full h-full object-cover" />
+            <img
+              src="/churchphoto.jpeg"
+              alt="Workspace"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 
@@ -350,7 +363,7 @@ function App() {
           </div>
           <div className="mb-8">
             <DecryptedText
-              text="I am a Software Engineer & Full-Stack Developer interested in Artificial Intelligence and Cloud Engineering"
+              text="I am a Software Engineer & Full-Stack Developer interested in Artificial Intelligence and Cloud Computing"
               speed={10}
               animateOn="view"
               animateOnce={true}
