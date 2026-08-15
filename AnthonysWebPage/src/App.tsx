@@ -30,11 +30,10 @@ function App() {
     {
       title: "GlassBox Audit Platform",
       description: [
-        "GlassBox exists because static analysis alone only tells you what looks risky; this project closes the loop with repo scanning, agentic triage, and real hardware validation.",
-        "Point it at a GitHub repo and it clones the code, scans repo files, builds a RAG index over code plus misc context, and streams a unified vulnerability report into the dashboard.",
-        "The agent lives outside the scanners and uses repo tools, search tools, and retrieval to answer questions with citations and keep both past and future audit context in one place.",
-        "For C/C++ timing leaks, it can drive the GlassBox pod, flash candidate functions onto an ESP32 through the Pico, and measure power and timing traces to confirm the leak on silicon.",
-        "Built on my GoMCP framework, which this project was the first real end-to-end integration test for against a live tool chain."
+        "Built an agentic security audit platform that clones a GitHub repo, scans repo files, and streams a unified vulnerability report.",
+        "Designed an agent layer with repo, search, and tools that answers questions with citations and persists audit context across sessions.",
+        "Used hardware validation by flashing candidate C/C++ functions to an ESP32 via Raspberry Pi Pico to confirm timing-leak vulnerabilities.",
+        "Built the platform on GoMCP, serving as the framework's first real end-to-end integration test against a live tool chain."
       ],
       technologies: [
         "Python",
@@ -61,11 +60,10 @@ function App() {
     {
       title: "Catalytica",
       description: [
-        "Won 1st place in the Google Technology Challenge at BeaverHacks 2025 out of 71 teams.",
-        "Built a real-time wildfire dashboard with React + TypeScript using NASA FIRMS satellite data and Leaflet.js heat mapping.",
-        "Implemented radius-based proximity queries to surface reports within a 50-mile zone, accurately identifying impacted areas.",
-        "Integrated Google Gemini to generate location-specific safety tips based on fire severity, weather, and population data.",
-        "Developed Firebase Cloud Functions, API calls, schemas, and controllers to deliver live, multi-API data to the frontend in < 1 second"
+        "Built a real-time wildfire tracking dashboard using NASA FIRMS satellite data and Leaflet.js heat mapping.",
+        "Implemented radius-based proximity queries within a 50-mile zone to accurately surface impacted areas.",
+        "Integrated Gemini to generate location-specific safety recommendations based on fire severity, weather, and population data.",
+        "Developed Firebase Cloud Functions, API calls, schemas, and controllers to deliver live, multi-API data to the frontend."
       ],
       technologies: [
         "Google Gemini AI",
@@ -86,11 +84,10 @@ function App() {
     {
       title: "BenchRacers - Services Decommissioned(2026)",
       description: [
-        "As the tech founder of a StartUp, I built a car showcase platform with React, AWS, and MySQL for sharing custom builds, voting, and performance specs.",
+        "As lead developer/co-founder of a startup, I built a car showcase platform for sharing custom builds, voting, and performance specs.",
         "Designed production-ready infrastructure with Terraform, Auto Scaling Groups, load balancers, and CloudWatch logging.",
-        "Optimized database queries and debugged bottlenecks to achieve < 1 second response times for a media-heavy application.",
-        "Developed an Instagram-style recommendation algorithm based on engagement metrics to surface the most relevant content.",
-        "Enhanced UI/UX with improved navigation and responsive layouts, optimizing flow and creating a polished user experience."
+        "Optimized database queries and schema design to achieve <1 second response latency for a media-heavy application.",
+        "Developed an Instagram-style recommendation algorithm based on engagement metrics to surface relevant content."
       ],
       technologies: [
         "React",
@@ -117,49 +114,12 @@ function App() {
       link: "https://www.benchracershq.com"
     },
     {
-      title: "Zukini - Services Decommissioned(2026)",
-      description: [
-        "Built a study-assist app to generate flashcards and mock tests from parsed class notes using OCR + LLMs.",
-        "Reduced hallucinations by ~95% via prompt constraints and context/pipeline tuning for higher-quality outputs.",
-        "Chunked large inputs to stay within token limits while keeping route response times fast.",
-        "Used AWS + Sequelize + PostgreSQL for secure storage of uploads, users, and generated study materials.",
-        "Integrated Stripe payments and automated infra deployment with Terraform for scalability."
-      ],
-      technologies: [
-        "React",
-        "React Context API",
-        "React Router",
-        "Vite",
-        "Tailwind CSS",
-        "Framer Motion",
-        "Mammoth.js",
-        "jsPDF",
-        "Node.js",
-        "Express",
-        "Sequelize",
-        "PostgreSQL",
-        "OpenAI API",
-        "Google Cloud Vision",
-        "Winston",
-        "PM2",
-        "CORS",
-        "AWS",
-        "Stripe",
-        "Terraform"
-      ],
-      github: "https://github.com/AnthonyL103/Zukini",
-      link: "https://www.zukini.com"
-      
-    },
-    {
       title: "GoMCP",
       description: [
-        "Built a Go-based Model Context Protocol (MCP) framework for creating AI agents with dynamic tool loading and multi-provider LLM support.",
-        "Implemented seamless provider switching between Anthropic Claude and OpenAI, handling their different tool execution models (sequential vs. parallel).",
-        "Designed an extensible MCP server architecture with YAML-driven configuration for runtime tool discovery and registration.",
-        "Developed type-safe JSON Schema validation with recursive nested structures for complex tool inputs.",
-        "Built conversation history management with automatic tool call tracking and provider-specific message formatting.",
-        "Created a modular transport layer abstracting provider differences in tool schemas, message formats, and execution flows."
+        "Built a Go-based MCP framework for creating AI-Agents with dynamic tool loading and multi-provider LLM support.",
+        "Designed an extensible MCP server architecture with customizable YAML-driven config for instructions and tool discovery/registration.",
+        "Supports default tooling options via config, enabling server/tool and infrastructure-as-code generation.",
+        "Manages chat history and context delivery to the provider, with support for both API and console interfaces."
       ],
       technologies: [
         "Go",
@@ -229,12 +189,11 @@ function App() {
   ]
 
   const skills = {
-    Programming: ["Java", "Python", "C/C++", "SQL", "JavaScript", "TypeScript", "HTML/CSS", "Ruby"],
-    Frameworks: ["React", "Express", "Ruby on Rails", "Flask", "Tensorflow", "Tailwind CSS", "Fast Agent", "Next.js", "Vite"],
-    "DevOps & Cloud": ["AWS", "Google Cloud", "Azure", "Docker", "Terraform", "CI/CD"],
-    Databases: ["PostgreSQL", "MySQL", "ClickHouse", "Firebase"],
-    Tools: ["Git", "GitHub", "Linux", "Bash", "FAISS", "LlamaIndex", "Nginx", "PM2"],
-    Concepts: ["AI-Agents", "RAG", "OOP", "Data Structures & Algorithms", "Agile", "REST APIs", "Scalability", "Security", "MCP", "Vector Search", "UI/UX Design"]
+    Programming: ["Java", "Python", "C", "C++", "SQL", "JavaScript", "TypeScript", "HTML/CSS (Tailwind, Standard)", "Ruby"],
+    Concepts: ["AI-Agents", "RAG", "Data Structures", "Algorithms", "Agile", "REST APIs", "Scalability", "Security", "MCP", "Vector Search", "Prompt Engineering", "UI/UX"],
+    "Frameworks/Libraries/Tools": ["Express", "React", "TensorFlow", "Ruby on Rails", "Fast Agent", "Flask", "PostgreSQL", "MySQL", "FAISS", "Docker", "Next.js", "Nginx"],
+    "DevOps & Automation": ["Git", "Bitbucket", "Jira", "Terraform", "CI/CD (GitHub Actions)", "Shell Scripting (Linux, Bash, Ubuntu)"],
+    "Cloud Services": ["Oracle Cloud Infrastructure (OCI)", "Google Cloud (Vision, Firebase)", "AWS (EC2, S3, Cloud9)", "Azure"]
   }
 
   useEffect(() => {
