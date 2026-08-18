@@ -63,7 +63,7 @@ function App() {
         "Built a real-time wildfire tracking dashboard using NASA FIRMS satellite data and Leaflet.js heat mapping.",
         "Implemented radius-based proximity queries within a 50-mile zone to accurately surface impacted areas.",
         "Integrated Gemini to generate location-specific safety recommendations based on fire severity, weather, and population data.",
-        "Developed Firebase Cloud Functions, API calls, schemas, and controllers to deliver live, multi-API data to the frontend."
+        "Developed Firebase Cloud Functions, API calls, schemas, and controllers to deliver live, multi-API data to the frontend in < 1 second."
       ],
       technologies: [
         "Google Gemini AI",
