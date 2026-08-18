@@ -134,6 +134,40 @@ function App() {
         "Agent Architecture"
       ],
       github: "https://github.com/AnthonyL103/GOMCP"
+    },
+    {
+      title: "Zukini - Services Decommissioned(2026)",
+      description: [
+        "Built a study-assist app with React to generate flashcards and mock tests from parsed class notes using Google Cloud Vision and OpenAI models.",
+        "Implemented and optimized prompt engineering to reduce hallucinations by 95%, ensuring high-quality and accurate flashcard generation.",
+        "Optimized the generation pipeline by chunking larger inputs to stay within token limits and maintain fast route response times.",
+        "Leveraged AWS, Sequelize, and PostgreSQL for secure storage of uploads, user data, and generated materials.",
+        "Integrated Stripe for secure payments and automated infrastructure deployment with Terraform for scalability and maintainability."
+      ],
+      technologies: [
+        "React",
+        "React Context API",
+        "React Router",
+        "Vite",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Mammoth.js",
+        "jsPDF",
+        "Node.js",
+        "Express",
+        "Sequelize",
+        "PostgreSQL",
+        "OpenAI API",
+        "Google Cloud Vision",
+        "Winston",
+        "PM2",
+        "CORS",
+        "AWS",
+        "Stripe",
+        "Terraform"
+      ],
+      github: "https://github.com/AnthonyL103/Zukini",
+      link: "https://www.zukini.com"
     }
   ]
 
