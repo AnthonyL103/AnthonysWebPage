@@ -24,7 +24,7 @@ export function Contact() {
             />
           </h2>
           <p className="mx-auto mt-4 max-w-md text-sm text-muted">
-            Always up for interesting problems, collaborations, or a good technical conversation. Feel free to reach out.
+            Feel free to reach out.
           </p>
         </Reveal>
 

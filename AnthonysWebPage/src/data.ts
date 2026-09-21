@@ -10,7 +10,6 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/anthony-l103',
   resumeBlurb:
     "I am an OSU alumnus with a B.S. in Computer Science and a passion for full-stack development, cloud computing, and AI/ML technologies.\n\nI've built AI agents for large-scale observability workflows, award-winning web applications, and efficient, scalable infrastructure. I enjoy turning messy real-world data into reliable systems and shipping software that performs under constraints.\n\nIn my free time, you'll find me playing guitar, DJing, golfing, going to concerts, and working on my latest side project.",
-  status: 'Open to interesting problems',
 }
 
 export const heroLines = [

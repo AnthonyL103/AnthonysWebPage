@@ -35,7 +35,7 @@ export function Nav() {
       </div>
 
       <header className="fixed inset-x-0 top-[2px] z-40 border-b border-line bg-bg/85 backdrop-blur-md">
-        <div className="mx-auto flex h-12 max-w-6xl items-center justify-between px-4 text-sm sm:px-6">
+        <div className="flex h-12 w-full items-center justify-between px-4 text-sm sm:px-6">
           <button onClick={() => go('home')} className="flex shrink-0 items-center gap-2 font-semibold text-ink">
             <span className="text-accent">~/</span>
             {profile.handle}
@@ -55,11 +55,6 @@ export function Nav() {
               </button>
             ))}
           </nav>
-
-          <div className="hidden shrink-0 items-center gap-2 text-xs text-muted lg:flex">
-            <span className="h-1.5 w-1.5 shrink-0 animate-pulse-dot rounded-full bg-accent" />
-            <span className="whitespace-nowrap">{profile.status}</span>
-          </div>
 
           <button onClick={() => setMenuOpen((v) => !v)} className="text-muted md:hidden" aria-label="Toggle menu">
             <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
